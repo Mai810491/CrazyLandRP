@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrazyLand — Le meilleur Serv RP Fr</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * { scroll-behavior: smooth; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #ff4eb5, #ff99cc);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3.5rem;
+      color: #fff;
+      text-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+      animation: fadeInDown 1.2s ease-in-out;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+      color: #222;
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+      background: #0b0b0b;
+      border-bottom: 2px solid #ff4eb5;
+      padding: 10px 20px;
+    }
+    .navbar-brand {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      color: #ff4eb5 !important;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    .nav-link {
+      color: #fff !important;
+      transition: 0.3s;
+      padding: 8px 16px;
+    }
+    .nav-link:hover {
+      color: #ff4eb5 !important;
+    }
+    section {
+      padding: 100px 20px 80px;
+    }
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.2rem;
+      color: #ff4eb5;
+      margin-bottom: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      transition: transform 0.4s ease, box-shadow 0.4s;
+      box-shadow: 0 0 20px rgba(255,78,181,0.2);
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(255,78,181,0.5);
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .btn-primary, .btn-success, .btn-outline-light {
+      border-radius: 30px;
+      padding: 14px 32px;
+      font-size: 1rem;
+    }
+    .btn-primary {
+      background-color: #ff4eb5;
+      border-color: #ff4eb5;
+    }
+    .btn-primary:hover {
+      background-color: #e644a5;
+    }
+    .accordion-button {
+      transition: background 0.1s ease;
+      background-color: #111;
+      color: #fff;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: #1a1a1a;
+      color: #ff4eb5;
+      box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+    .accordion-collapse {
+      transition: all 0.15s ease-in-out !important;
+      background-color: #0d0d0d;
+      color: #ccc;
+    }
+    .accordion-body {
+      border-top: 1px solid #333;
+    }
+    .container {
+      max-width: 960px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CrazyLand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#map">Map</a></li>
+          <li class="nav-item"><a class="nav-link" href="#discord">Discord</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div>
+      <h1>CrazyLand — Le meilleur serveur RP de France</h1>
+      <p>Plonge dans le monde du meilleur serveur RP inspiré de CrazyTown</p>
+      <a href="#discord" class="btn btn-primary mt-4">Rejoindre le Discord</a>
+    </div>
+  </header>
+
+
+
+  <section id="map">
+    <div class="container">
+      <h2 class="text-center" data-aos="fade-up">Notre Map</h2>
+      <div class="row gallery">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://imgur.com/j5Ny6Dq.jpg" alt="Map 1">
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://imgur.com/uqghEVJ.jpg" alt="Map 2">
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://imgur.com/cv4vNXQ.jpg" alt="Map 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="discord" class="text-center">
+    <div class="container" data-aos="zoom-in">
+      <h2>Rejoins la communauté</h2>
+      <p>Participe à une aventure roleplay délirante avec des joueurs passionnés !</p>
+      <a href="https://discord.gg/AfSnE8pR" class="btn btn-outline-light btn-lg">Rejoindre le Discord</a>
+    </div>
+  </section>
+
+  <section id="faq" class="bg-dark">
+    <div class="container">
+      <h2 class="text-center" data-aos="fade-up">FAQ</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item bg-dark border-light" data-aos="fade-up" data-aos-delay="100">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+              Comment rejoindre le serveur ?
+            </button>
+          </h2>
+          <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Clique sur le bouton Discord ci-dessus et suis les instructions du canal #rejoindre-le-serveur.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-dark border-light" data-aos="fade-up" data-aos-delay="200">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+              Est-ce que c'est gratuit ?
+            </button>
+          </h2>
+          <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Oui, la participation est totalement gratuite !
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-dark border-light" data-aos="fade-up" data-aos-delay="300">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
+              Quelle est la version Minecraft ?
+            </button>
+          </h2>
+          <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Le serveur tourne sous Minecraft Java 1.21 avec NeoForge.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cagnotte" class="text-center">
+    <div class="container" data-aos="zoom-in-up">
+      <h2>Soutenir le projet</h2>
+      <p>Tu veux nous aider à faire vivre CrazyLand ? Un don nous aide énormément !</p>
+      <a href="https://paypal.me/votrecagnotte" class="btn btn-success btn-lg">Faire un don</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>CrazyLand © 2025 — Site propulsé par la communauté</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: false, duration: 600 });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
